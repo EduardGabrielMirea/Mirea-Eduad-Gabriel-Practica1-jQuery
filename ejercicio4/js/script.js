@@ -1,6 +1,4 @@
 $(document).ready(function () {
-    
-    
     $('#crear').on('change',function () {
         if ($(this).prop('checked')) {
             const inputSumar = $('<input>')
