@@ -2,7 +2,7 @@ $(document).ready(function () {
     
     
     $('#crear').on('change',function () {
-        if ($(this).is(':checked')) {
+        if ($(this).prop('checked')) {
             const inputSumar = $('<input>')
                                 .attr('id','sumar')
                                 .attr('type','number');
